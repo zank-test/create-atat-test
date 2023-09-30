@@ -1,0 +1,8 @@
+[build]
+  command = "pnpm run build"
+  functions = "netlify/functions"
+  publish = "dist"
+[build.environment]
+  PNPM_FLAGS = "--no-frozen-lockfile"
+  YARN_FLAGS = "--ignore-engines --no-lockfile"
+  NPM_FLAGS = "--no-package-lock"
