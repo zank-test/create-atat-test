@@ -1,8 +1,3 @@
-
-<p align="center">
-	<img src=".github/images/performance.png" />
-</p>
-
 <h1 align="center"> Astro Starter Kit</h1>
 
 <br />
@@ -99,10 +94,6 @@ For more information follow Decap CMS documentation at https://decapcms.org/docs
 In order to access the admin dashboard to change blog articles content you need to have access to the github repo, a quick way to test it test would be fork the repo and than configure decap cms accordingly to your cloud provider (netlify, cloudflare, vercel, etc...).
 
 If you use cloudflare pages you can follow this guide https://github.com/i40west/netlify-cms-cloudflare-pages.
-
-In this case your environment variable should look like this
-
-![Cloudflare environment variable image](.github/images/cloudflare-env-var.png)
 
 If you use netlify it's actually easier, you will need to change in the file `astro.config.mjs` NetlifyCMS config `config.backend.name` to git-gateway. (See https://decapcms.org/docs/git-gateway-backend/#git-gateway-with-netlify for more info)
 
